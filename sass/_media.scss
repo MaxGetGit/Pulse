@@ -1,0 +1,66 @@
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        &__official {
+            font-size: 12px;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            width: 350px;
+            margin-top: 40px;
+            justify-content: space-around;
+        }
+        &__icon {
+            width: 120px;
+        }
+        &__link {
+            font-size: 14px;
+            margin-top: 14px;
+        }
+    }
+    .button {
+        width: 139px;
+    }
+    .button_main {
+        width: 196px;
+        font-size: 14px;
+    }
+
+    .preferences {
+        &__item {
+            margin-top: 63px;
+        }
+    }
+
+    .consultation {
+        .title_left {
+            font-size: 28px;
+        }
+        .button_submit {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        .official_hidden {
+            display: none;
+        }
+    }
+}
